@@ -622,9 +622,6 @@ on boot
 # CI FUMO check routine
     chmod 0777 /data/update_success
 
-# CIQ
-	chown system system /dev/ttyCIQ0
-	chown system system /dev/ttyTRFB0
 
 # Audio Tunning Files
 	chmod 0777 /system/etc/audio/stream_speaker.txt
